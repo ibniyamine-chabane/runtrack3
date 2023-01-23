@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 336px;
+    height: 150px;
+    margin: 27px;
+    background-color: #88c1d0;
+}
+
+
+@media screen and (max-width:1599px) and (min-width:768px) {
+    body {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} 
